@@ -31,8 +31,7 @@ public class ArrayEj3 {
             }
         }
     }
-    
-    
+       
     public static void introducir_datos(int []numero) {
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < numero.length; i++) {   
