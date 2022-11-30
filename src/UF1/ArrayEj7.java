@@ -21,10 +21,14 @@ public class ArrayEj7 {
         System.out.println("Pon valor maximo");
         int maximo=sc.nextInt();
         
-        int[] valores= new int [maximo-minimo+1];
-        for (int i = 0; i < valores.length; i++) {
-            valores[i]=minimo;         
-        }
+        int largada=maximo-minimo-1;
+        int[] valores= new int [largada];
+        for (int i = 0; i <valores.length; i++) {
+            valores[i]=minimo; 
+            minimo++;
+            System.out.println("-");
+            System.out.println(minimo);
+        }      
         
     }
         
