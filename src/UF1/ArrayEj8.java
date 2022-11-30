@@ -9,5 +9,10 @@ package UF1;
  * @author pomo6989
  */
 public class ArrayEj8 {
-    
+      /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+    }
 }
