@@ -28,10 +28,9 @@ public class ArrayTirarDados {
         
         for (int i = 0; i < dado.length; i++) {
             System.out.println("La cara " + (i + 1) + " a salido " + dado[i]);
-        }
-
+        }        
     }
-
+    
     private static int simularLanzamiento(int[] dado) {
         Random rd = new Random();
         int lanzamiento = rd.nextInt(6) + 1;
