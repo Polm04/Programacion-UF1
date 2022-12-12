@@ -34,9 +34,10 @@ public class ArrayEjercicioConString {
             }
 
         }
-        for (int j = 0; j<5; j++) {
-            System.out.println("La vocal "+j+" a salido "+vocales[j]);
-        }
-
+            System.out.println("La vocal A a salido "+vocales[0]);
+            System.out.println("La vocal E a salido "+vocales[1]);
+            System.out.println("La vocal I a salido "+vocales[2]);
+            System.out.println("La vocal 0 a salido "+vocales[3]);
+            System.out.println("La vocal u a salido "+vocales[4]);    
     }
 }
