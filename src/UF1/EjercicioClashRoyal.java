@@ -35,9 +35,9 @@ public class EjercicioClashRoyal {
             carta= sc.nextLine().charAt(0);
                       
             switch (carta) {
-                case 'm','M'-> System.out.println("Has escollit la carta Mago Electrico");
-                case 'e','E' -> System.out.println("Has escollit la carta Esbirro Mega");
-                default -> System.out.println("L'opcio que has introduït no correspon a cap carta.");
+//                case 'm','M'-> System.out.println("Has escollit la carta Mago Electrico");
+//                case 'e','E' -> System.out.println("Has escollit la carta Esbirro Mega");
+//                default -> System.out.println("L'opcio que has introduït no correspon a cap carta.");
             }          
            
         }
@@ -51,9 +51,9 @@ public class EjercicioClashRoyal {
             carta= sc.nextLine().charAt(0);
            
             switch (carta) {
-                case 'c','C' -> System.out.println("Has escollit la carta Cavallero");
-                case 'b','B' -> System.out.println("Has escollit la carta Bandida");
-                default -> System.out.println("L'opcio que has introduït no correspon a cap carta.");
+//                case 'c','C' -> System.out.println("Has escollit la carta Cavallero");
+//                case 'b','B' -> System.out.println("Has escollit la carta Bandida");
+//                default -> System.out.println("L'opcio que has introduït no correspon a cap carta.");
             }
         }
         else if (copa>=3000)
@@ -65,11 +65,11 @@ public class EjercicioClashRoyal {
             carta= sc.nextLine().charAt(0);
            
             switch (carta) {
-                case 'g','G' -> System.out.println("Has escollit la carta Gigante");
-                case 'k','K' -> System.out.println("Has escollit la carta Ejercito de esqueletos");
-                default -> System.out.println("L'opcio que has introduït no correspon a cap carta.");
+//                case 'g','G' -> System.out.println("Has escollit la carta Gigante");
+//                case 'k','K' -> System.out.println("Has escollit la carta Ejercito de esqueletos");
+//                default -> System.out.println("L'opcio que has introduït no correspon a cap carta.");
             }
         }
-}  
-    
+    }  
 }
+    
