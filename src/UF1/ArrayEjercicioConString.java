@@ -34,10 +34,11 @@ public class ArrayEjercicioConString {
             }
 
         }
+//            char[] letras={'a','e','i','o','u'}; 
             System.out.println("La vocal A a salido "+vocales[0]);
             System.out.println("La vocal E a salido "+vocales[1]);
             System.out.println("La vocal I a salido "+vocales[2]);
             System.out.println("La vocal 0 a salido "+vocales[3]);
-            System.out.println("La vocal u a salido "+vocales[4]);    
+            System.out.println("La vocal u a salido "+vocales[4]);                   
     }
 }
