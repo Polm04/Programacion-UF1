@@ -4,6 +4,8 @@
  */
 package UF1_bidimensional;
 
+import java.util.Scanner;
+
 /**
  *
  * @author pomo6989
@@ -26,5 +28,20 @@ public class Array {
         //tercera fila
         mapa[2][0]=6;
         mapa[2][1]=16;
+        
+        for (int i = 0; i <mapa.length; i++) {
+            for (int j = 0; j <mapa[i].length; j++) {
+                System.out.print(mapa[i][j]+"-");
+            }
+            System.out.println("");
+        }
+        int x,y;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Fica la fila que vols veure: ");
+        x=sc.nextInt();
+        System.out.println("Fila la columna");
+        y=sc.nextInt();
+        
+        System.out.println("El valor de la coordenada introduida es:"+mapa[x][y]);
     }
 }
