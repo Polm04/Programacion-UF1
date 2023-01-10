@@ -18,45 +18,50 @@ public class MaquinaExpendedora {
         final int fila = 4;
         int columna_elegida, fila_elegida;
         int opcio;
-        int[][] opcion_llaminadura = new int[fila][columna];
-        String[][] nombresGolosinas = new String[4][4];
-        NombresGolosinas(nombresGolosinas);
-        
+
+        String[][] Golosinas=NombresGolosinas();
+        inicializarExistencias(fila, columna);
+
         double[][] precio = {
             {1.1, 0.8, 1.5, 0.9},
             {1.8, 1, 1.2, 1},
             {1.8, 1.3, 1.2, 0.8},
             {1.5, 1.1, 1.1, 1.1}
-
         };
-
-        int[][] existencia = new int[4][4];
-        inicializarExistencias(existencia);
-        for (int i = 0; i < fila; i++) {
-            for (int j = 0; j < columna; j++) {
-                existencia[i][j] = 5;
-            }
-        }
-        opcio = menu();
+        
+        opcio = menu();       
         do {
             switch (opcio) {
                 case 1:
-                    pedirGolosina(nombresGolosinas);
+                    pedirGolosina(NombresGolosinas());
                     break;
                 case 2:
+                    for (int i = 0; i<Golosinas.length; i++) {
+                        for (int j = 0; j<Golosinas.length; j++) {
+                            System.out.println("Columna "+i+" fila "+j+"= "+Golosinas[i][j]);
+                        }
+                    }                    
+                    break;
+                case 3:
+                    inicializarExistencias(fila, columna);
+                    break;
+                case 4:
+                    System.out.println();
                     break;
             }
-        } while (true);
-        
+        } while (opcio==0);
+
     }
 
-    public static void NombresGolosinas(String[][] nombresGolosinas) {
-        nombresGolosinas = new String[][]{
+    public static String[][] NombresGolosinas() {
+        String[][] Golosinas = {
             {"KitKat", "Chicles de fresa", "Lacasitos", "Palotes"},
             {"Kinder Bueno", "Bolsa variada Haribo", "Chetoos", "Twix"},
             {"Kinder Bueno", "M&M'S", "Papa Delta", "Chicles de menta"},
             {"Lacasitos", "Crunch", "Milkybar", "KitKat"}
+
         };
+        return Golosinas;
     }
 
     private static int menu() {
@@ -68,7 +73,7 @@ public class MaquinaExpendedora {
             System.out.println("2.- Mostra llaminadures");
             System.out.println("3.- Omplir llaminadures");
             System.out.println("4.- Mostrar existencias maquina");
-            System.out.println("0.- Apagar m�quina");
+            System.out.println("0.- Apagar maquina");
             System.out.println("Escull opcio");
             opcion = sc.nextInt();
         } while (!(opcion >= 0 && opcion <= 4));
@@ -87,7 +92,12 @@ public class MaquinaExpendedora {
 
     }
 
-    private static void inicializarExistencias(int[][] existencia) {
-
+    private static void inicializarExistencias(int fila, int columna) {
+        int[][] existencia = new int[4][4];
+        for (int i = 0; i < fila; i++) {
+            for (int j = 0; j < columna; j++) {
+                existencia[i][j] = 5;
+            }
+        }
     }
 }
