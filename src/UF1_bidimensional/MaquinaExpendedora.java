@@ -29,15 +29,14 @@ public class MaquinaExpendedora {
             {1.5, 1.1, 1.1, 1.1}
 
         };
-               
+
         int[][] existencia = new int[4][4];
         inicializarExistencias(existencia);
-        for (int i = 0; i <fila; i++) {
-            for (int j = 0; j <columna; j++) {
-                existencia[i][j]=5;               
+        for (int i = 0; i < fila; i++) {
+            for (int j = 0; j < columna; j++) {
+                existencia[i][j] = 5;
             }
         }
-       
         opcio = menu();
         do {
             switch (opcio) {
@@ -48,7 +47,7 @@ public class MaquinaExpendedora {
                     break;
             }
         } while (true);
-
+        
     }
 
     public static void NombresGolosinas(String[][] nombresGolosinas) {
@@ -70,7 +69,7 @@ public class MaquinaExpendedora {
             System.out.println("3.- Omplir llaminadures");
             System.out.println("4.- Mostrar existencias maquina");
             System.out.println("0.- Apagar m�quina");
-            System.out.println("Escull opci�");
+            System.out.println("Escull opcio");
             opcion = sc.nextInt();
         } while (!(opcion >= 0 && opcion <= 4));
         return opcion;
@@ -84,10 +83,11 @@ public class MaquinaExpendedora {
         columna_elegida = sc.nextInt();
         System.out.println("Que columna vols?");
         fila_elegida = sc.nextInt();
+        System.out.println(nombresGolosinas[fila_elegida][columna_elegida]);
 
     }
 
     private static void inicializarExistencias(int[][] existencia) {
-        
+
     }
 }
