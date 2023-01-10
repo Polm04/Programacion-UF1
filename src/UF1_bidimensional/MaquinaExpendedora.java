@@ -16,7 +16,6 @@ public class MaquinaExpendedora {
         Scanner sc = new Scanner(System.in);
         final int columna = 4;
         final int fila = 4;
-        int columna_elegida, fila_elegida;
         int opcio;
 
         String[][] Golosinas=NombresGolosinas();
