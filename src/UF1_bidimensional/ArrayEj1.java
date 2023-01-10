@@ -9,8 +9,8 @@ package UF1_bidimensional;
  * @author pomo6989
  */
 public class ArrayEj1 {
-    final int columna=5;
-    final int fila=5;
-    
-    tabla[c][]=
+//    final int columna=5;
+//    final int fila=5;
+//    
+//    tabla[c][]=
 }
