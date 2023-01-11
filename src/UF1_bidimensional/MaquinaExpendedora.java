@@ -17,6 +17,7 @@ public class MaquinaExpendedora {
         final int columna = 4;
         final int fila = 4;
         int opcio;
+        int contador=0;
 
         String[][] Golosinas=NombresGolosinas();
         inicializarExistencias(fila, columna);
@@ -33,6 +34,7 @@ public class MaquinaExpendedora {
             switch (opcio) {
                 case 1:
                     pedirGolosina(NombresGolosinas());
+                    contador++;
                     break;
                 case 2:
                     for (int i = 0; i<Golosinas.length; i++) {
@@ -48,7 +50,8 @@ public class MaquinaExpendedora {
                     System.out.println();
                     break;
             }
-        } while (opcio==0);
+        } while (!(opcio==0));        
+        System.out.println("Se an venut= "+contador+" llaminadures");
 
     }
 
