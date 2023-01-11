@@ -29,8 +29,8 @@ public class MaquinaExpendedora {
             {1.5, 1.1, 1.1, 1.1}
         };
         
-        opcio = menu();       
         do {
+        opcio = menu();       
             switch (opcio) {
                 case 1:
                     pedirGolosina(NombresGolosinas());
@@ -39,7 +39,7 @@ public class MaquinaExpendedora {
                 case 2:
                     for (int i = 0; i<Golosinas.length; i++) {
                         for (int j = 0; j<Golosinas.length; j++) {
-                            System.out.println("Columna "+i+" fila "+j+"= "+Golosinas[i][j]);
+                            System.out.println("Fila "+i+" columna "+j+"= "+Golosinas[i][j]);
                         }
                     }                    
                     break;
@@ -87,9 +87,9 @@ public class MaquinaExpendedora {
         Scanner sc = new Scanner(System.in);
         System.out.println("Que llaminadura vols demanar?(hi ha 4 columnes i 4 files)");
         System.out.println("Que fila vols?");
-        columna_elegida = sc.nextInt();
-        System.out.println("Que columna vols?");
         fila_elegida = sc.nextInt();
+        System.out.println("Que columna vols?");
+        columna_elegida = sc.nextInt();
         System.out.println(nombresGolosinas[fila_elegida][columna_elegida]);
 
         
