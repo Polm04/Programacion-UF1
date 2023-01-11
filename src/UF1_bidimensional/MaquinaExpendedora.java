@@ -89,6 +89,7 @@ public class MaquinaExpendedora {
         fila_elegida = sc.nextInt();
         System.out.println(nombresGolosinas[fila_elegida][columna_elegida]);
 
+        
     }
 
     private static void inicializarExistencias(int fila, int columna) {
