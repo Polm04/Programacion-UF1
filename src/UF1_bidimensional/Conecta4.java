@@ -4,6 +4,9 @@
  */
 package UF1_bidimensional;
 
+import java.util.Random;
+import java.util.Scanner;
+
 /**
  *
  * @author pomo6989
@@ -14,13 +17,39 @@ public class Conecta4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        int Jugadores = 2;
         final int Filas = 6;
         final int Columnas = 7;
 
         int[][] tablero = new int[Filas][Columnas];
-        String nombre1, nombre2;
         //pedir nombre
-
+        String nombre1 = PedirNoms(Jugadores);
+        System.out.println("El primer nom es " + nombre1);
+        String nombre2 = PedirNoms(Jugadores);
+        System.out.println("El primer segon es " + nombre2);
+        System.out.println("***************************************");
+        //Qui inicia
+        int inici=tiraInici();
+        if(inici==1)
+        {
+            System.out.println("Comença "+nombre1);           
+        }
+        else {
+            System.out.println("Comença "+nombre2);
+        }
+        //mostrar tauler inici
+        int[][] tablero_inicialitzat=inicializarTaluer(tablero);
+        for (int fila = 0; fila <tablero_inicialitzat.length; fila++) {
+            for (int columna = 0; columna <tablero_inicialitzat.length; columna++) {
+                System.out.println(tablero_inicialitzat[fila][columna]);
+            }
+        }
+        System.out.println("***************************************");
+        //tirada
+        
+        //mostrar tauler
+//        char tauler =Mostrar_casella_usuari(tablero_inicialitzat, Filas, Columnas);
+//        System.out.println(tauler);
     }
 
     /**
@@ -28,27 +57,37 @@ public class Conecta4 {
      * @param frase
      * @return
      */
-    public static String PedirNoms(String frase) {
-
+    public static String PedirNoms(int Jugadores) {
+        String nom;
+        Scanner sc = new Scanner(System.in);
+        if (Jugadores == 2) {
+            System.out.println("Pon el nom");
+            nom = sc.nextLine();
+            PedirNoms(Jugadores - 1);
+            return nom;
+        } else if (Jugadores <= 0) {
+            return "";
+        }
         return "";
     }
-
+   
     /**
      *
      * @return 1 si comença el 1 i el 2 si comença el 2
      */
     public static int tiraInici() {
-
-        return -1;
+        Random rd = new Random();
+        int inici = rd.nextInt(2) + 1;
+        return inici;
     }
-
-    /**
-     * Muestra el tablero mostrando separadas las filas
-     *
-     * @param tablero
-     */
-    public static void MostrarTauler(int[][] tablero) {
-
+    public static int[][] inicializarTaluer(int[][] tablero) {
+        //inicializarlo
+        for (int fila = 0; fila <tablero.length; fila++) {
+            for (int columna = 0; columna <tablero.length; columna++) {
+                tablero[fila][columna]=0;
+            }
+        }
+        return tablero;
     }
 
     /**
@@ -68,14 +107,14 @@ public class Conecta4 {
             return '0';
         }
     }
-    public static void tirada(int[][] tablero, int turno, int columna) {
-        boolean trobat=false;
-        for (int i = 0; i < 10; i++) {
-            if (tablero[i][columna]==0)
-            {
-                tablero[i][columna]=turno;
-                trobat = true;
-            }
-        }
-    }
+
+//    public static void tirada(int[][] tablero, int turno, int columna) {
+//        boolean trobat = false;
+//        for (int i = 0; i < 10; i++) {
+//            if (tablero[i][columna] == 0) {
+//                tablero[i][columna] = turno;
+//                trobat = true;
+//            }
+//        }
+//    }
 }
