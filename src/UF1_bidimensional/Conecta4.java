@@ -27,26 +27,21 @@ public class Conecta4 {
         System.out.println("El primer nom es " + nombre1);
         String nombre2 = PedirNoms(Jugadores);
         System.out.println("El primer segon es " + nombre2);
-        System.out.println("***************************************");
+        System.out.println("*********************************");
         //Qui inicia
-        int inici=tiraInici();
-        if(inici==1)
-        {
-            System.out.println("Comença "+nombre1);           
+        int inici = tiraInici();
+        if (inici == 1) {
+            System.out.println("Comença " + nombre1);
+        } else {
+            System.out.println("Comença " + nombre2);
         }
-        else {
-            System.out.println("Comença "+nombre2);
-        }
+        System.out.println("*********************************");
+        //tauler inicialitzat
+        int[][] tablero_inicialitzat = inicializarTaluer(tablero);
         //mostrar tauler inici
-        int[][] tablero_inicialitzat=inicializarTaluer(tablero);
-        for (int fila = 0; fila <tablero_inicialitzat.length; fila++) {
-            for (int columna = 0; columna <tablero_inicialitzat.length; columna++) {
-                System.out.println(tablero_inicialitzat[fila][columna]);
-            }
-        }
-        System.out.println("***************************************");
+        Mostrar_tauler(tablero_inicialitzat);
         //tirada
-        
+//        tirada(tablero, inici, Columnas);
         //mostrar tauler
 //        char tauler =Mostrar_casella_usuari(tablero_inicialitzat, Filas, Columnas);
 //        System.out.println(tauler);
@@ -70,7 +65,7 @@ public class Conecta4 {
         }
         return "";
     }
-   
+
     /**
      *
      * @return 1 si comença el 1 i el 2 si comença el 2
@@ -80,14 +75,30 @@ public class Conecta4 {
         int inici = rd.nextInt(2) + 1;
         return inici;
     }
+
     public static int[][] inicializarTaluer(int[][] tablero) {
         //inicializarlo
-        for (int fila = 0; fila <tablero.length; fila++) {
-            for (int columna = 0; columna <tablero.length; columna++) {
-                tablero[fila][columna]=0;
+        for (int fila = 0; fila < tablero.length; fila++) {
+            for (int columna = 0; columna < tablero.length; columna++) {
+                tablero[fila][columna] = 0;
             }
         }
         return tablero;
+    }
+
+    /**
+     * mostramos el tablero
+     *
+     * @param tablero_inicialitzat
+     */
+    public static void Mostrar_tauler(int[][] tablero_inicialitzat) {
+        for (int i = 0; i < tablero_inicialitzat.length; i++) {
+            for (int j = 0; (tablero_inicialitzat[i] != null && j < tablero_inicialitzat[i].length); j++) {
+                System.out.print(tablero_inicialitzat[i][j] + " ");
+            }
+            System.out.println();
+        }
+        System.out.println("*********************************");
     }
 
     /**
