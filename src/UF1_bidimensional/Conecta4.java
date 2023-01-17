@@ -41,10 +41,11 @@ public class Conecta4 {
         //mostrar tauler inici
         Mostrar_tauler(tablero_inicialitzat);
         //tirada
-//        tirada(tablero, inici, Columnas);
+        tirada(tablero_inicialitzat, inici, Columnas);
         //mostrar tauler
 //        char tauler =Mostrar_casella_usuari(tablero_inicialitzat, Filas, Columnas);
 //        System.out.println(tauler);
+        Mostrar_tauler(tablero_inicialitzat);
     }
 
     /**
@@ -93,7 +94,7 @@ public class Conecta4 {
      */
     public static void Mostrar_tauler(int[][] tablero_inicialitzat) {
         for (int i = 0; i < tablero_inicialitzat.length; i++) {
-            for (int j = 0; (tablero_inicialitzat[i] != null && j < tablero_inicialitzat[i].length); j++) {
+            for (int j = 0; j < tablero_inicialitzat[i].length; j++) {
                 System.out.print(tablero_inicialitzat[i][j] + " ");
             }
             System.out.println();
@@ -119,13 +120,21 @@ public class Conecta4 {
         }
     }
 
-//    public static void tirada(int[][] tablero, int turno, int columna) {
-//        boolean trobat = false;
-//        for (int i = 0; i < 10; i++) {
-//            if (tablero[i][columna] == 0) {
-//                tablero[i][columna] = turno;
-//                trobat = true;
-//            }
-//        }
-//    }
+    public static void tirada(int[][] tablero, int turno, int columna) {
+        int fila_ficha, columna_ficha;
+        Scanner sc = new Scanner(System.in);
+        //pedir la columna
+        do {
+            System.out.println("En que columna quieres poner la ficha");
+            columna = sc.nextInt();
+        } while (!(columna > 1 || columna < tablero[0].length));
+        //tirada
+        boolean trobat = false;
+        for (int i = 0; i <tablero.length; i++) {
+            if (tablero[i][columna] == 0) {
+                tablero[i][columna] = turno;
+                trobat = true;
+            }
+        }
+    }
 }
