@@ -19,6 +19,19 @@ public class Botella {
     private int liquid_actual;//liquit que conte la botella(els l que conte)
 
     //metodes propis botella
+    //constructor(Por defecto dara estos parametros)
+    public Botella() {
+        this.capacitat = 1000;
+        this.SetMaterial("Vidre");//para que pase la validacion
+        this.oberta = false;
+//        this.liquid_actual=this.capacitat;
+    }
+    //segundo constructor
+    public Botella(String material, int capacitat) {
+        this.SetMaterial(material);
+        this.capacitat=capacitat;
+    }
+
     //--------------------------------------------
     //get -> Obtener(Mostrar)
     public String GetMaterial() {
@@ -30,6 +43,14 @@ public class Botella {
         return caducitat;
     }
 
+    public int GetCapacitat() {
+        return capacitat;
+    }
+    
+    public boolean GetOberta() {
+        return oberta;
+    }
+    
     //set -> Poner(poner las reglas)
     public void SetMaterial(String material_botella) {
         if (material_botella.equalsIgnoreCase("vidre")

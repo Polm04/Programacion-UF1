@@ -19,12 +19,21 @@ public class Primera_classe_Objetos {
     public static void main(String[] args) {
         //funcionament de la maquina
         Botella bottle=new Botella();
+        //bottle por defecto el primer constructor
+        System.out.println(bottle.GetMaterial());
+        System.out.println(bottle.GetCapacitat());
+        System.out.println("-"+bottle.GetOberta());
+        //bottle por defecto el segundo constructor
+        Botella bottle1=new Botella("Vidre", 0);
+        
         Vaso glass =new Vaso();
         Vaso glass1 =new Vaso();
         
+        //System.out.println(bottle.GetMaterial());
         bottle.SetMaterial("Plastico");
         bottle.SetCaducitat(0);
-               
+        //bottle.Material=Plastico
+        
 //        bottle.material="Vidre";
 //        bottle.capacitat=1000;
         System.out.println(bottle.GetMaterial());
