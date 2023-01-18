@@ -41,7 +41,7 @@ public class Pokemon_pol_sergi {
         do{
         System.out.println("Elige la opcion");
         opcion=sc.nextInt();       
-        }while(opcion>=1 && opcion<=7);
+        }while(!(opcion>=1 && opcion<=7));
         switch (opcion) {
             case 1:
                 MostrarPokemons(tiposPokemon);
