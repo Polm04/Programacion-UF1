@@ -24,7 +24,7 @@ public class Primera_classe_Objetos {
         
         bottle.SetMaterial("Plastico");
         bottle.SetCaducitat(0);
-        
+               
 //        bottle.material="Vidre";
 //        bottle.capacitat=1000;
         System.out.println(bottle.GetMaterial());
