@@ -31,7 +31,10 @@ public class Botella {
         this.SetMaterial(material);
         this.capacitat=capacitat;
     }
-
+    
+    public static void llenarVaso(String[] args) {
+        
+    }
     //--------------------------------------------
     //get -> Obtener(Mostrar)
     public String GetMaterial() {
