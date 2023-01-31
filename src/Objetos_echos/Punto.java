@@ -4,6 +4,8 @@
  */
 package Objetos_echos;
 
+import java.util.Scanner;
+
 /**
  *
  * @author pomo6989
@@ -35,7 +37,34 @@ public class Punto {
     public void setY(int y) {
         this.y = y;
     }
-
     
+    //funciones
+    public void imprime(){
+        System.out.println("coordenadas: x="+this.x+", "+ "y: "+this.y);    
+    }
     
+    public void setXY(int x, int y){
+        Scanner sc = new Scanner(System.in);
+        int coordenada_x, coordenada_y;
+        System.out.println("Pon la coordenada x");
+        coordenada_x=sc.nextInt();
+        System.out.println("Pon la coordenada Y");
+        coordenada_y=sc.nextInt();
+        
+        this.x=coordenada_x;
+        this.y=coordenada_y;
+    }
+    
+    public void desplazar(int x, int y){
+        Scanner sc = new Scanner(System.in);
+        int coordenada_x, coordenada_y;
+        System.out.println("Cuanto quieres desplazar la x?");
+        coordenada_x=sc.nextInt();
+        System.out.println("Cuanto quieres desplazar la Y?");
+        coordenada_y=sc.nextInt();
+        
+        this.x=coordenada_x+x;
+        this.y=coordenada_y+y;
+    }
+   
 }

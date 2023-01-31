@@ -30,9 +30,16 @@ public class MainPunto {
         C.setX(3);
         C.setY(-3);
 
-        System.out.println("Punto A(" + A.getX() + "," + A.getY() + ")");
-        System.out.println("Punto B(" + B.getX() + "," + B.getY() + ")");
-        System.out.println("Punto C(" + C.getX() + "," + C.getY() + ")");
+        A.imprime();
+        B.imprime();
+        C.imprime();
         
+        A.setXY(0, 0);
+        A.imprime();
+        
+        Punto g =new Punto(1, 1);
+        
+        g.desplazar(1, 0);
+        g.imprime();
     }
 }
