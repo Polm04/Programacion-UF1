@@ -72,4 +72,5 @@ public class Rectangulo {
     public void imprimir() {
         System.out.println("Rectangulo ("+ this.getX()+","+this.getY()+")"+" ("+this.getX_2()+","+this.y_2+")");
     }
+    
 }
