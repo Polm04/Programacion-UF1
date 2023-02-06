@@ -82,4 +82,11 @@ public class Focas {
             this.Resistencia--;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Focas{" + "pes=" + pes + ", edat=" + edat + ", Resistencia=" + Resistencia + ", distancia_recorreguda=" + distancia_recorreguda + ", resistencia=" + resistencia + '}';
+    }
+    
+    
 }
