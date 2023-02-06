@@ -18,16 +18,16 @@ public class MainArticulo {
      */
     public static void main(String[] args) {
         
-       Articulo camiseta =new Articulo("camiseta", 0, 10);
-       camiseta.mostrar();
-       
-       camiseta.getPVP();
-       camiseta.mostrar();
-       
-       camiseta.getPVPDescuento();
-       camiseta.mostrar();
-            
-       camiseta.existencias();
-       camiseta.mostrar();
+       Articulo camiseta =new Articulo("", 0, 10);
+//       camiseta.mostrar();
+//       
+//       camiseta.getPVP();
+//       camiseta.mostrar();
+//       
+//       camiseta.getPVPDescuento();
+//       camiseta.mostrar();
+//            
+//       camiseta.existencias();
+//       camiseta.mostrar();       
     }
 }
