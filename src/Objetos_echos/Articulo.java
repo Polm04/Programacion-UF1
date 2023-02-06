@@ -19,9 +19,14 @@ public class Articulo {
 
     //constructor
     public Articulo(String nombre, int precio, int cuantosQuedan) {
-        this.nombre = nombre;
+//    if (nombre.length() < 1) {
+//         System.err.println("ERROR El nombre de el articulo tiene que tener caracteres");
+//    } else {
+        this.setNombre(nombre);   //(para hacer )    
+//     }
         this.precio = precio;
         this.cuantosQuedan = cuantosQuedan;
+
     }
 
     //get
@@ -42,11 +47,18 @@ public class Articulo {
     }
 
     //set
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombre(String set_nombre) {
+        if (set_nombre.length() < 1) {
+            System.err.println("ERROR El nombre de el articulo tiene que tener caracteres");
+        } else {
+            this.nombre = set_nombre;
+        }
     }
 
     public void setPrecio(int precio) {
+        if (precio < 0) {
+            System.err.println("ERROR El precio es mas pequeño que 0");
+        }
         this.precio = precio;
     }
 
@@ -62,9 +74,12 @@ public class Articulo {
     public int getPVP() {
         int precio;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Cuanto vale este producto= " + this.nombre);
-        precio = sc.nextInt();
+        do {
+            System.out.println("Cuanto vale este producto= " + this.nombre);
+            precio = sc.nextInt();
+        } while (!(precio > 0));
         this.precio = precio + (precio * iva) / 100;
+
         return this.precio;
     }
 
@@ -76,16 +91,16 @@ public class Articulo {
         this.precio = precio - (precio * descuento) / 100;
         return this.precio;
     }
-    public boolean existencias(){      
+
+    public boolean existencias() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Quieres comparlo?");
-        String compra=sc.nextLine();
-        if("Si".equalsIgnoreCase(nombre)||this.cuantosQuedan==0)
-        {
+        String compra = sc.nextLine();
+        if (compra.equalsIgnoreCase("si") || this.cuantosQuedan == 0) {
             System.out.println("NO HAY EXISTENCIAS");
             return false;
-        }
-        else{
+        }        
+        else {
             cuantosQuedan--;
             return true;
         }
