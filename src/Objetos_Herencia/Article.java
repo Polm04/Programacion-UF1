@@ -4,6 +4,8 @@
  */
 package Objetos_Herencia;
 
+import java.util.Objects;
+
 /**
  *
  * @author polmr
@@ -67,6 +69,28 @@ public class Article {
     public String Mostrar_Article() {
         return "Article{" + "nom=" + nom + ", Fabricant=" + Fabricant + ", preu=" + preu + ", codiEAN=" + codiEAN + '}';
     }
-    
-    
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Article other = (Article) obj;
+        if (!Objects.equals(this.nom, other.nom)) {
+            return false;
+        }
+        return Objects.equals(this.Fabricant, other.Fabricant);
+    } 
 }

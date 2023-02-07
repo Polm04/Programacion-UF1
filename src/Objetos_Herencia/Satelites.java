@@ -42,5 +42,9 @@ public class Satelites extends Astros{
     public String toString() {
         return super.toString()+" Satelites"+"{Satelites"+"{distancia_al_planeta=" + distancia_al_planeta + ",Planeta_al_que_pertenece=" +Planeta_al_que_pertenece+ '}';
     
-    }   
+    }    
+    @Override
+    public void explotar() {
+        System.out.println("Soy un satelite y si exploto choco con el planeta");
+    }
 }

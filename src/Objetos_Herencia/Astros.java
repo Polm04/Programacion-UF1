@@ -5,10 +5,10 @@
 package Objetos_Herencia;
 
 /**
- *
+ *Al ser abstracta no podra instanciar/crear objetos 
  * @author pomo6989
  */
-public class Astros {
+public abstract class Astros {
    protected int masa;
    protected int gravedad;
    protected int radio_ecuatorial;
@@ -52,4 +52,5 @@ public class Astros {
         return "Astros{" + "masa=" + masa + ", gravedad=" + gravedad + ", temperatura_media=" + radio_ecuatorial + '}';
     }
     
+    public abstract void explotar();
 }
