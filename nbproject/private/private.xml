@@ -3,17 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Punto.java</file>
-=======
-<<<<<<< HEAD
->>>>>>> 840b2db13c90d05481364ca6f87caebf176e2425
-            <file>file:/C:/Users/polmr/Programacion/src/UF1/EjercicioRandom.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/UF1/EjercicioClashRoyal.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/UF1/ArrayCubiletes.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_echos/Punto.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/uf2/MostrarNuemeroInverversoConRecursividad.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/Objetos_echos/Botella.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/UF1/ArrayEj17.java</file>
@@ -21,32 +11,34 @@
             <file>file:/C:/Users/polmr/Programacion/src/UF1/EjercicioClashRoyaleBucle.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/Objetos/MainPunto.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/UF1_bidimensional/Conecta4.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_echos/Vaso.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/UF1/Ejercicio4_1.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/UF1/ArrayConString.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/UF1_bidimensional/MaquinaExpendedora.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/UF1_bidimensional/Pokemon_pol_sergi.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos/MainArticulo.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Astros.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Objetos_echos/Deflines.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Article_alimentari_refrigerat.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Article.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/UF1/ArrayEjercicioConString.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Article_alimentari.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/UF1_bidimensional/ArrayEj1.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/Objetos/Primera_classe_Objetos.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/Objetos_echos/Articulo.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Article_vestir.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/UF1/EjercicioSwitch.java</file>
-<<<<<<< HEAD
-=======
-=======
->>>>>>> c384d64397963d44b3391f0bbb7ae674e104f497
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Botella.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos/Primera_classe_Objetos.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Rectangulo.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Vaso.java</file>
-<<<<<<< HEAD
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos/RectanguloMain.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos/MainPunto.java</file>
-=======
->>>>>>> e4fe7ee5c8edaef871cad3651473ff396646e013
->>>>>>> c384d64397963d44b3391f0bbb7ae674e104f497
->>>>>>> 840b2db13c90d05481364ca6f87caebf176e2425
+            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Persona.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Uf4/MainAstros.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/UF1/EjercicioRandom.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/UF1/EjercicioClashRoyal.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Objetos_echos/Punto.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Uf4/Herencia_Persona_Alumno.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Alumno.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Profesor.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Satelites.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Planetas.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Objetos_echos/Vaso.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/UF1_bidimensional/MaquinaExpendedora.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Objetos/MainArticulo.java</file>
+            <file>file:/C:/Users/polmr/Programacion/src/Uf4/MainArticle.java</file>
         </group>
     </open-files>
 </project-private>
