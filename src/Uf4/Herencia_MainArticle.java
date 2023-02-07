@@ -13,7 +13,7 @@ import Objetos_Herencia.Article_vestir;
  *
  * @author polmr
  */
-public class MainArticle {
+public class Herencia_MainArticle {
     
     /**
      * 
