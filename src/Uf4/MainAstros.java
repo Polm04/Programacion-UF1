@@ -4,8 +4,8 @@
  */
 package Uf4;
 
-import Objetos_echos.Planetas;
-import Objetos_echos.Satelites;
+import Objetos_Herencia.Planetas;
+import Objetos_Herencia.Satelites;
 
 /**
  *
@@ -13,7 +13,7 @@ import Objetos_echos.Satelites;
  */
 public class MainAstros {
     public static void main(String[] args) {
-        Satelites satelite_1 =new Satelites(0,"Tierra", 0, 0, 0);
+        Satelites satelite_1 =new Satelites(0, "Tierra", 0, 0, 0);
         System.out.println(satelite_1.toString());  
         
         Planetas tierra =new Planetas(0, true, 0, 0, 0);

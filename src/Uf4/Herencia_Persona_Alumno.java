@@ -4,9 +4,8 @@
  */
 package Uf4;
 
-import Objetos_echos.Alumno;
-import Objetos_echos.Persona;
-import Objetos_echos.Profesor;
+import Objetos_Herencia.Alumno;
+import Objetos_Herencia.Profesor;
 
 /**
  *
