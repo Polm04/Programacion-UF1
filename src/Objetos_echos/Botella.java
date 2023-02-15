@@ -21,9 +21,12 @@ public class Botella {
     //metodes propis botella
     //constructor(Por defecto dara estos parametros)
     public Botella(String material, int capacitat) {
-        this.capacitat = capacitat;
-        this.SetMaterial(material);
-        this.oberta = false;
+        this.capacitat = capacitat; //hacemos que el usuario ponga la capacidat
+        this.SetMaterial(material);//hacemos la validacion de el material
+              //material_botella es la variable de el setter i material es la variable del constructor 
+              //donde el usuario pondra el material i luego eso pasara 
+              //a la variable material_botella i hara la validacion     
+        this.oberta = false;//Cuando se cree el objeto este cerrada la botella
     }
     //--------------------------------------------
     //get -> Obtener(Mostrar)
