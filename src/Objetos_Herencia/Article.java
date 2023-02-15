@@ -12,12 +12,14 @@ import java.util.Objects;
  */
 public class Article {
 
-    protected String nom;
-    protected String Fabricant;
-    protected double preu;
+    //variables
+    protected String nom;// protected significa que son privadas menos a los hijos
+    protected String Fabricant;//tambien se pueden poner Publicas(public) o Privadas(private)
+    protected double preu;//
     protected String codiEAN;
 
-    //constructor
+    //constructor con las variables para que cuando creee un objeto de articulo
+    //tenga estas variables definidas i pueda poner los datos
     public Article(String nom, String Fabricant, double preu, String codiEAN) {
         this.nom = nom;
         this.Fabricant = Fabricant;
@@ -62,10 +64,10 @@ public class Article {
     //metodos
     public double getPVP() {
         double iva = 0.21;
-        preu *= iva+preu;
+        preu *= iva + preu;
         return preu;
     }
-    
+
     public String Mostrar_Article() {
         return "Article{" + "nom=" + nom + ", Fabricant=" + Fabricant + ", preu=" + preu + ", codiEAN=" + codiEAN + '}';
     }
@@ -92,5 +94,5 @@ public class Article {
             return false;
         }
         return Objects.equals(this.Fabricant, other.Fabricant);
-    } 
+    }
 }
