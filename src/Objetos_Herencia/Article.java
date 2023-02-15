@@ -19,7 +19,8 @@ public class Article {
     protected String codiEAN;
 
     //constructor con las variables para que cuando creee un objeto de articulo
-    //tenga estas variables definidas i pueda poner los datos
+    //tenga estas variables definidas i pueda poner los datos, como estan ya
+    //definidas no hace falta definirlas en los objetos hijos
     public Article(String nom, String Fabricant, double preu, String codiEAN) {
         this.nom = nom;
         this.Fabricant = Fabricant;
