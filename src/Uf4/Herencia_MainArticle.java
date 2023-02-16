@@ -13,7 +13,7 @@ import Objetos_Herencia.Article_vestir;
  *
  * @author polmr
  */
-public class MainArticle {
+public class Herencia_MainArticle {
     
     /**
      * 
@@ -31,7 +31,7 @@ public class MainArticle {
         camisa.getPVP();
         
         System.out.println(camisa.getPreu());     
-        Article_alimentari_refrigerat gambas =new Article_alimentari_refrigerat(0, "", "", 0, "");
+        Article_alimentari_refrigerat gambas =new Article_alimentari_refrigerat(0, "", "", "", 0, "");
         
     }
 }

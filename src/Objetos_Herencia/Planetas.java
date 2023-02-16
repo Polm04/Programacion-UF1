@@ -42,6 +42,11 @@ public class Planetas extends Astros{
     public String toString() {
         return super.toString()+" Planetas"+"{distancia_al_sol=" + distancia_al_sol + ", Tiene_satelites=" +Tiene_satelites+ '}';
     }
+
+    @Override
+    public void explotar() {
+        System.out.println("Los planetas no explotan");
+    }
     
     
     

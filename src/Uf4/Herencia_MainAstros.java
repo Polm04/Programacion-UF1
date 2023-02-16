@@ -11,7 +11,7 @@ import Objetos_Herencia.Satelites;
  *
  * @author pomo6989
  */
-public class MainAstros {
+public class Herencia_MainAstros {
     public static void main(String[] args) {
         Satelites satelite_1 =new Satelites(0, "Tierra", 0, 0, 0);
         System.out.println(satelite_1.toString());  
