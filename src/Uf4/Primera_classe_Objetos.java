@@ -18,7 +18,7 @@ public class Primera_classe_Objetos {
      */
     public static void main(String[] args) {
         //funcionament de la maquina
-        Botella bottle=new Botella();
+        Botella bottle=new Botella("sada", 0);
         //bottle por defecto el primer constructor
         System.out.println(bottle.GetMaterial());
         System.out.println(bottle.GetCapacitat());

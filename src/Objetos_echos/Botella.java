@@ -20,20 +20,13 @@ public class Botella {
 
     //metodes propis botella
     //constructor(Por defecto dara estos parametros)
-    public Botella() {
-        this.capacitat = 1000;
-        this.SetMaterial("Vidre");//para que pase la validacion
-        this.oberta = false;
-//        this.liquid_actual=this.capacitat;
-    }
-    //segundo constructor
     public Botella(String material, int capacitat) {
-        this.SetMaterial(material);
-        this.capacitat=capacitat;
-    }
-    
-    public static void llenarVaso(String[] args) {
-        
+        this.capacitat = capacitat; //hacemos que el usuario ponga la capacidat
+        this.SetMaterial(material);//hacemos la validacion de el material
+              //material_botella es la variable de el setter i material es la variable del constructor 
+              //donde el usuario pondra el material i luego eso pasara 
+              //a la variable material_botella i hara la validacion     
+        this.oberta = false;//Cuando se cree el objeto este cerrada la botella
     }
     //--------------------------------------------
     //get -> Obtener(Mostrar)

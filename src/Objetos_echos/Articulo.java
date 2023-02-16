@@ -19,11 +19,7 @@ public class Articulo {
 
     //constructor
     public Articulo(String nombre, int precio, int cuantosQuedan) {
-//    if (nombre.length() < 1) {
-//         System.err.println("ERROR El nombre de el articulo tiene que tener caracteres");
-//    } else {
-        this.setNombre(nombre);   //(para hacer )    
-//     }
+        this.setNombre(nombre); 
         this.precio = precio;
         this.cuantosQuedan = cuantosQuedan;
 
