@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
             <file>file:/C:/Users/polmr/Programacion/src/UF1/ArrayCubiletes.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/uf2/MostrarNuemeroInverversoConRecursividad.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/Objetos_echos/Botella.java</file>
@@ -36,44 +34,6 @@
             <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Planetas.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/Objetos_echos/Vaso.java</file>
             <file>file:/C:/Users/polmr/Programacion/src/UF1_bidimensional/MaquinaExpendedora.java</file>
-=======
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf4/Herencia_Persona_Alumno.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf4/pokemon_main.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Entrenador.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Astros.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Rectangulo.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Futbolista.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Article_vestir.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Article_alimentari_refrigerat.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf4/MainArticulo.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Pokemon_veri.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Profesor.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Planetas.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Vaso.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Presidente.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Equipo_de_Futbol.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Punto.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Botella.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/empleado.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Interface_cuadrado.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Article.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Masajista.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf4/Primera_classe_Objetos.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Interface/figura.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Articulo.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Interface_circulo.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf4/MainEmpleado.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Pokemon.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf4/Herencia_MainAstros.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Alumno.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Satelites.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Interface_rectangulo.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Pokemon_electric.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Persona.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Article_alimentari.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Pokemon_agua.java</file>
-            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf4/Herencia_MainArticle.java</file>
->>>>>>> e0a2ea4d98a198c1c2ade66f2725b56322f2ce62
         </group>
     </open-files>
 </project-private>
