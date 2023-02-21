@@ -30,7 +30,7 @@ public final class Pokemon_agua extends Pokemon {
 
     public int atac() {
         Random rd = new Random();
-        int atac = rd.nextInt(0, 10);
+        int atac = rd.nextInt(10);
         ataca(atac);
         return atac;
     }

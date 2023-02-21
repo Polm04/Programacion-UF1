@@ -29,7 +29,7 @@ public final class Pokemon_electric extends Pokemon {
     }
     public int atac() {
         Random rd=new Random();
-        int atac =rd.nextInt(0, 10);
+        int atac =rd.nextInt(10);
         if (atac <= 4 && potenciador > 0) {
             atac += 5;
             System.err.println("Atac potenciat");

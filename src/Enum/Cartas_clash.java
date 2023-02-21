@@ -9,17 +9,29 @@ package Enum;
  * @author pomo6989
  */
 public enum Cartas_clash {
-    Pekka("PEKKA",7,3);
+    //objetos
+    Pekka("PEKKA", 7), 
+    Leñador("Leñador", 6), 
+    Globo ("Globo",4),
+    Gigante("Gigante", 1),
+    Arqueras("Arqueras", 1);
+    
+    //variables
     private String Nom;
     private int Elixir;
     private int Arena;
 
-    private Cartas_clash(String Nom, int Elixir, int Arena) {
+    //constructor
+    private Cartas_clash(String Nom, int Elixir) {
+        if (Elixir == 8) {
+            this.Arena = 10;
+        } else if (Elixir == 9) {
+            this.Arena = 13;
+        }
         this.Nom = Nom;
-        this.Elixir = Elixir;
-        this.Arena = Arena;
     }
 
+    //getter
     public String getNom() {
         return Nom;
     }
@@ -32,7 +44,4 @@ public enum Cartas_clash {
         return Arena;
     }
 
-   
-    
-    
 }
