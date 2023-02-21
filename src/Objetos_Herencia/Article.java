@@ -22,10 +22,10 @@ public class Article {
     //tenga estas variables definidas i pueda poner los datos, como estan ya
     //definidas no hace falta definirlas en los objetos hijos
     public Article(String nom, String Fabricant, double preu, String codiEAN) {
-        this.nom = nom;
-        this.Fabricant = Fabricant;
-        this.preu = preu;
-        this.codiEAN = codiEAN;
+         this.nom = nom;
+         this.Fabricant = Fabricant;
+         this.preu = preu;
+         this.codiEAN = codiEAN;
     }
 
     //getter
