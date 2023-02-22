@@ -36,7 +36,7 @@ public class Main_Enum {
         System.out.println(jugador.ordinal());// Devuelve un entero con la posición del enum según está declarada(1).
         System.out.println(jugador2.ordinal());// Devuelve un entero con la posición del enum según está declarada(3).
         System.out.println("***values()***");
-        Demarcacion[] lista = Demarcacion.values();// Devuelve un array que contiene todos los enum
+        Demarcacion[] lista = Demarcacion.values();//Devuelve un array que contiene todos los enum
         for (int i = 0; i < lista.length; i++) {
             System.out.print(lista[i].name()+ "-");
         }
