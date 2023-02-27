@@ -19,11 +19,11 @@ public class LanzarExcepciones {
         try {
             ValorPositivo(v);
         } catch (Exception ex) {
-            System.out.println(ex.getMessage());
+            System.out.println(ex.getMessage());//.getMessage cojemos la Exception lanzada
         }
     }
 
-    public static void ValorPositivo(int v) throws Exception {
+    public static void ValorPositivo(int v) throws Exception {//throws Exception  lanza la exception
 
         if (v < 0) {
             throw new Exception("Valor no positivo");
