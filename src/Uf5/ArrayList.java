@@ -22,6 +22,7 @@ public class Arraylist {
 
         //definir araylist
         List<Integer> llista = new ArrayList<Integer>();
+        // List<Tipo de dato> nombre_Arraylist= new ArrayList<Tipod de dato>();
 
         //poner datos
         llista.add(7);

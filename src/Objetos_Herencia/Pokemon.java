@@ -35,7 +35,7 @@ public abstract class Pokemon {
         return viu;
     }
     
-    
+    //metodos
     public abstract boolean RebreAtac(int atac);
     public abstract int atac();
       
