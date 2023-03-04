@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author pomo6989
  */
-public class Arraylist {
+public class Array_list {
 
     /**
      *

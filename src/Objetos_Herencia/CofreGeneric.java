@@ -36,7 +36,7 @@ public abstract class CofreGeneric {
 
     protected int trobar_monedas(int min, int max) {
         Random rd = new Random();
-        int monedas = rd.nextInt(min, (max + 1));//maximo incluido
+        int monedas = rd.nextInt(max)+min;//maximo incluido
         return monedas;
     }
 

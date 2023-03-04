@@ -28,7 +28,7 @@ public class Ejercicio4 {
 
         //inicializarlo
         for (int i = 0; i < array.length; i++) {
-            int numero_random = rd.nextInt(1, 10);
+            int numero_random = rd.nextInt(9)+1;
             array[i] = numero_random;
         }
 

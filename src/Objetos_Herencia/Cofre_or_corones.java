@@ -25,7 +25,7 @@ public class Cofre_or_corones extends CofreGeneric {
     //metodos
     private int cantidad_gemas() {
         Random rd = new Random();
-        int gemas = rd.nextInt(1, (5 + 1));
+        int gemas = rd.nextInt(5)+1;
         return gemas;
     }
 }
