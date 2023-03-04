@@ -34,6 +34,10 @@ public abstract class Pokemon {
     public boolean isViu() {
         return viu;
     }
+    
+    //metodos
+    public abstract boolean RebreAtac(int atac);
+    public abstract int atac();
       
     //metodos
     @Override

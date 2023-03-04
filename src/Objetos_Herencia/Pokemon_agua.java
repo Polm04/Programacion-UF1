@@ -28,18 +28,11 @@ public final class Pokemon_agua extends Pokemon {
         System.out.println(NomPokemon + " a ataca amb forca= " + atac);
     }
 
-    public int atac() {
-        Random rd = new Random();
-        int atac = rd.nextInt(10);
-        ataca(atac);
-        return atac;
-    }
-
     public boolean RebreAtac(int atac) {
         if (corasses > 0) {
             System.err.println("MENOS UNA CORAZA");
             corasses--;
-            System.err.println("Te quedan= "+corasses);
+            System.err.println("Te quedan= " + corasses);
         } else {
             vida -= atac;
             System.out.println("");
@@ -51,4 +44,12 @@ public final class Pokemon_agua extends Pokemon {
         }
         return viu;
     }
+    
+    public int atac() {
+        Random rd = new Random();
+        int atac = rd.nextInt(10);
+        ataca(atac);
+        return atac;
+    }
+
 }

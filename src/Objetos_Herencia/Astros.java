@@ -52,5 +52,6 @@ public abstract class Astros {
         return "Astros{" + "masa=" + masa + ", gravedad=" + gravedad + ", temperatura_media=" + radio_ecuatorial + '}';
     }
     
+    //metodo
     public abstract void explotar();
 }

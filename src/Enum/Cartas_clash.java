@@ -10,12 +10,12 @@ package Enum;
  */
 public enum Cartas_clash {
     //objetos
-    Pekka("PEKKA", 7), 
-    Leñador("Leñador", 6), 
-    Globo ("Globo",4),
-    Gigante("Gigante", 1),
-    Arqueras("Arqueras", 1);
-    
+    Pekka("PEKKA", 7),
+    Leñador("Leñador", 4),
+    Globo("Globo", 5),
+    Gigante("Gigante", 5),
+    Arqueras("Arqueras", 2);
+
     //variables
     private String Nom;
     private int Elixir;
@@ -23,12 +23,8 @@ public enum Cartas_clash {
 
     //constructor
     private Cartas_clash(String Nom, int Elixir) {
-        if (Elixir == 8) {
-            this.Arena = 10;
-        } else if (Elixir == 9) {
-            this.Arena = 13;
-        }
         this.Nom = Nom;
+        this.setElixir(Elixir);
     }
 
     //getter
@@ -42,6 +38,26 @@ public enum Cartas_clash {
 
     public int getArena() {
         return Arena;
+    }
+
+    //setter
+    public void setElixir(int Elixir) {
+        if (Elixir == 8) {
+            this.Arena = 10;
+            this.Elixir = Elixir;
+        } else if (Elixir == 9) {
+            this.Arena = 13;
+            this.Elixir = Elixir;
+        } else {
+            this.Arena = Elixir;
+            this.Elixir = Elixir;
+        }
+    }
+
+    //funciones
+    @Override
+    public String toString() {
+        return "{Nom=" + Nom + ", Elixir=" + Elixir + '}';
     }
 
 }
