@@ -13,9 +13,8 @@ public interface figura {
     float pi = 3.1416f;//cada que pongas un numero tienes que poner la f para que
                        // te lo ponga a float
 
-    //metodos si son necesarios
+    //metodos si son necesarios pueden ser int, double, float,char....
     float area();
     float perimetro();
-
     
 }
