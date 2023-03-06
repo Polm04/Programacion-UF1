@@ -4,10 +4,22 @@
  */
 package Uf5;
 
+import Objetos_echos.menu;
+
+
 /**
  *
  * @author pomo6989
  */
-class OptionItem {
+public class Main_menu {
     
+    /**
+     * 
+     * @param args 
+     */
+    public static void main(String[] args) {
+        menu Fifa = new menu("Fifa");
+        
+        
+    }
 }
