@@ -10,16 +10,21 @@ import java.util.Scanner;
  *
  * @author pomo6989
  */
-public class Main_cromos {
+public class AlbumCromos {
     
     /**
      * 
      * @param args 
      */
     public static void main(String[] args) {
-        
+        AlbumCromos app = new AlbumCromos();
+        app.run();       
     }
-    public static void menu() {
 
+    /**
+     * no es estatico asi que nadie de fuera lo podra llamar
+     */
+    private void run() {
+        
     }
 }
