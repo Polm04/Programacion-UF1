@@ -39,6 +39,7 @@ public class CromoDao {
             return true;
         } else {
             CartasRepes.add(add);
+            System.err.println("Cromo Repetido");
             return false;
         }
     }
