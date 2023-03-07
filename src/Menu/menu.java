@@ -2,10 +2,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Objetos_echos;
+package Menu;
 
-import Objetos_echos.OptionItem;
-import Objetos_echos.OptionItem;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -26,13 +24,27 @@ public class menu {
         option_menu = new ArrayList<OptionItem>();
     }
 
-    //
+    //funciones
     public void AddOption(OptionItem afegir, int pos) {
         if (!option_menu.contains(afegir)) {
             option_menu.add(pos, afegir);
         } else {
             System.out.println("Opcio ja afegit");
         }
+    }
+    
+    public void AddOptionByIndex(OptionItem afegir, int pos)
+    {
+        if (!option_menu.contains(afegir))
+        { //si no existeix
+            
+         option_menu.add(pos, afegir);
+        }
+        else
+        {
+            System.out.println("Opció ja afegida");
+        }
+        
     }
 
     public int NumeroOpcionsMenu() {

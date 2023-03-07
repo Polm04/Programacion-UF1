@@ -4,22 +4,22 @@
  */
 package Uf5;
 
-import Objetos_echos.menu;
-
+import java.util.Scanner;
 
 /**
  *
  * @author pomo6989
  */
-public class Main_menu {
+public class Main_cromos {
     
     /**
      * 
      * @param args 
      */
     public static void main(String[] args) {
-        menu Fifa = new menu("Fifa");
         
-        
+    }
+    public static void menu() {
+
     }
 }
