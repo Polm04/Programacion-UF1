@@ -8,8 +8,8 @@ package Menu;
  *
  * @author pomo6989
  */
-class OptionItem {
-    private String option_phrase;
+public class OptionItem {
+      private String option_phrase;
 
     public OptionItem(String option_phrase) {
         this.option_phrase = option_phrase;
@@ -28,9 +28,9 @@ class OptionItem {
     public String toString() {
         return  option_phrase ;
     }
-    
-    
     //equals falta implementar!!!!!
+
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
@@ -46,4 +46,5 @@ class OptionItem {
         return 
        this.option_phrase.equalsIgnoreCase(other.option_phrase);
     }
+    
 }

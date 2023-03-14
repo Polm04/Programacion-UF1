@@ -8,8 +8,8 @@ package Objetos_echos;
  *
  * @author pomo6989
  */
-public class Cromo {
-    
+public class Cromo implements Comparable<Cromo>{
+
     //variables
     private int Numero;
     private String Descripcion;
@@ -19,7 +19,7 @@ public class Cromo {
         this.Numero = Numero;
         this.Descripcion = Descripcion;
     }
-    
+
     //getter i setter
     public int getNumero() {
         return Numero;
@@ -36,6 +36,46 @@ public class Cromo {
     public void setDescripcion(String Descripcion) {
         this.Descripcion = Descripcion;
     }
+
+    //funciones
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (obj instanceof Cromo) {
+            return false;
+        }
+        final Cromo other = (Cromo) obj;
+        return this.Numero == other.Numero;
+    }
+
+    public void SetDescripcio(String descripcio) throws DescripcioIncorrecta {
+        if (descripcio.length() > 3) {
+            throw new DescripcioIncorrecta();
+        } else {
+            this.Descripcion = descripcio;
+        }
+    }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("num");
+        sb.append(Numero);
+        sb.append("-");
+        sb.append(Descripcion);
+        return sb.toString();
+        //return "num=" + num + "-" + descripcio_cromo ;
+    }
+
+    @Override
+    public int compareTo(Cromo o) {
+        return (this.getNumero() - o.getNumero());
+    }
     
     
 }
+

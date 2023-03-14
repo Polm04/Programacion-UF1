@@ -25,20 +25,20 @@ public class menu {
     }
 
     //funciones
-    public void AddOption(OptionItem afegir, int pos) {
+    public void AddOption(OptionItem afegir) {
         if (!option_menu.contains(afegir)) {
-            option_menu.add(pos, afegir);
+            option_menu.add( afegir);
         } else {
             System.out.println("Opcio ja afegit");
         }
     }
     
-    public void AddOptionByIndex(OptionItem afegir, int pos)
+    public void AddOptionByIndex(OptionItem afegir)
     {
         if (!option_menu.contains(afegir))
         { //si no existeix
             
-         option_menu.add(pos, afegir);
+         option_menu.add(afegir);
         }
         else
         {
@@ -83,4 +83,5 @@ public class menu {
         } while (!(option > 0 || option <= option_menu.size()));
         return option;
     }
+
 }
