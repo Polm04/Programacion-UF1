@@ -47,11 +47,6 @@ public class CromoDao {
         }
     }
 
-    //eliminar
-    public void EliminarCromo() {
-
-    }
-
     //canviar
     public void CambiarCromo() {
 
@@ -59,13 +54,13 @@ public class CromoDao {
 
     //buscar
     public void BuscarCromo() {
-
+        
     }
 
     public List<Cromo> getAlbum() {
         if (!ordenado) {
             Collections.sort(Album);
-            ordenado=true;
+            ordenado = true;
         }
         return Album;
     }
@@ -73,7 +68,7 @@ public class CromoDao {
     public List<Cromo> getRepes() {
         if (!ordenado) {
             Collections.sort(CartasRepes);
-            ordenado=true;
+            ordenado = true;
         }
         return CartasRepes;
     }
@@ -114,6 +109,13 @@ public class CromoDao {
         } else {
             return -1;
         }
+    }
 
+    public void Listar_cromos_pares(CromoDao album) {
+        for (Cromo pares : album.getAlbum()) {
+            if (pares.getNumero() % 2 == 0) {
+                System.out.println(pares.toString());
+            }
+        }
     }
 }

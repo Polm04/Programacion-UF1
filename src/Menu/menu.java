@@ -60,13 +60,16 @@ public class menu {
     }
 
     @Override
-    public String toString() {
+   public String toString() {
         StringBuilder build = new StringBuilder();
-        build.append("**" + this.title + "**/n");
-        build.append("_________________/n");
+        build.append("**" + this.title + "**\n");// /n para nueva linea
+        build.append("------------------\n");
         for (int i = 0; i < option_menu.size(); i++) {
-            build.append(i + option_menu.get(i).toString());
+            build.append((i+1) + "-" + option_menu.get(i).toString() + "\n");
         }
+        build.append("______________________\n");
+               
+        
         return build.toString();
     }
 

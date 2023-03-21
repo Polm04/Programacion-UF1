@@ -63,9 +63,9 @@ public class Cromo implements Comparable<Cromo>{
 
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("num");
-        sb.append(Numero);
-        sb.append("-");
+        sb.append("num: ");
+        sb.append(Numero+"/n");// /n para nueva linea
+        sb.append("descripcion: ");
         sb.append(Descripcion);
         return sb.toString();
         //return "num=" + num + "-" + descripcio_cromo ;
