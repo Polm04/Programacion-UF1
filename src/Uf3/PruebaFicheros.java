@@ -33,7 +33,7 @@ public class PruebaFicheros {
         } catch (FileNotFoundException ex) {
             System.out.println("fichero no encontrado");
         } catch (IOException ex) {
-            System.out.println("errpr escritura fichero");
+            System.out.println("errr escritura fichero");
         } catch (FinFicheroException ex) {
             System.out.println("Fin fichero");
         }
