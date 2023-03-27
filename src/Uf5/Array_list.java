@@ -35,7 +35,7 @@ public class Array_list {
 
         //recorre Arraylist
         //1 forma
-        for (Integer valor : llista) {
+        for (Integer valor : llista) { //for(Tipo//obj,Integer... nombre: arraylist)
             System.out.println(valor);
         }
 
