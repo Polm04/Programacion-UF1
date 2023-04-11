@@ -4,7 +4,6 @@
  */
 package Uf3;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
@@ -17,7 +16,7 @@ public class FicheroPrimitivos {
         // write information to file.
         writeInfo();
         // read information from file.
-//        readAndShowInfo();
+        readAndShowInfo();
         // write array to file
 //        writeList();
         // read array from file
@@ -43,6 +42,20 @@ public class FicheroPrimitivos {
     }
 
     private static void readAndShowInfo() {
+        System.out.println("Reading from file ...");
+        try {
+            FicheroLecturaPrimitivo dis = new FicheroLecturaPrimitivo("Ficheros\\FicheroPrimitivos.txt");
+            // read data from file.
+            int age = dis.LeerInt();
+            double salary = dis.Leerdouble();
+            String name = dis.LeerString();
+            // show data to console.
+            System.out.format("age=%d\n", age);
+            System.out.format("salary=%f\n", salary);
+            System.out.format("name=%s\n", name);
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
     private static void writeList() {
@@ -52,5 +65,5 @@ public class FicheroPrimitivos {
     private static void readAndShowList() {
 
     }
-    
+
 }
