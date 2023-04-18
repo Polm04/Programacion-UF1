@@ -44,4 +44,9 @@ public class FicheroLecturaPrimitivo {
     public void cerrarFichero() throws IOException {
         dis.close();
     }
+    
+    public boolean BytesPorLeer() throws IOException
+    {
+        return dis.available()>0;
+    }
 }
