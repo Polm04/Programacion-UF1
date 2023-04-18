@@ -4,7 +4,11 @@
  */
 package Uf3;
 
+import java.io.EOFException;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
 
 /**
  *
@@ -63,7 +67,26 @@ public class FicheroPrimitivos {
     }
 
     private static void readAndShowList() {
+        List<Double> data = new ArrayList<>();
+        //read data
+        try {
 
+            FicheroLecturaPrimitivo fileLector
+                    = new FicheroLecturaPrimitivo("myData2.txt");
+            while (fileLector.BytesPorLeer()) {
+                double d = fileLector.Leerdouble();
+                data.add(d);
+            }
+        } catch (EOFException e) {
+            System.out.println("Error leyendo final fichero" + e.getMessage());
+
+        } catch (IOException e) {
+            System.out.println("Error IO exception entrada y salida datos" + e.getMessage());
+        }
+        //display read data
+        for (Double elem : data) {
+            System.out.println(elem);
+        }
     }
 
 }
