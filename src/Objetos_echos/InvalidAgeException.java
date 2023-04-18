@@ -8,6 +8,13 @@ package Objetos_echos;
  *
  * @author pomo6989
  */
+public class InvalidAgeException extends Exception {
+
+    public InvalidAgeException() {
+        super("Valor no permes per una edat");
+    }
+}
+
 class DescripcioIncorrecta extends Exception {
 
     public DescripcioIncorrecta() {

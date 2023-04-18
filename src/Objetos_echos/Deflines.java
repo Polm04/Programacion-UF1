@@ -17,7 +17,7 @@ public class Deflines {
     private int distancia_recorreguda;
 
     //constructor
-    public Deflines(int Age, String Raza, double Speed, int distancia_recorreguda) throws Exception {
+    public Deflines(int Age, String Raza, double Speed, int distancia_recorreguda) throws InvalidAgeException{
         this.setAge(Age);
         this.setRaza(Raza);
         this.setSpeed(Speed);
@@ -44,12 +44,12 @@ public class Deflines {
     }
 
     //set
-    public void setAge(int Age) throws Exception {
+    public void setAge(int Age) throws InvalidAgeException {
         if (Age > 0) {
             this.Age = Age;
         } else {
             this.Age = 30;
-            throw new Exception("ERROR AL CREAR LA EDAT");
+            throw new InvalidAgeException();
         }
     }
 

@@ -31,7 +31,7 @@ public class FicheroEscrituraCaracteres {
     }
 
     //funciones
-    public void escribirFichero(char letra) throws IOException {
+    public void escribirCaracter(char letra) throws IOException {
         bw.write(letra);
     }
 
