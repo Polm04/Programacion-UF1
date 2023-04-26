@@ -1,0 +1,43 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Uf6.ShowCountries;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+
+/**
+ *
+ * @author pomo6989
+ */
+public class DBconnect {
+
+    //variables
+    static final String DRIVER = "com.mysql.cj.jdbc.Driver";
+    static final String PROTOCOL = "jdbc:mysql:";
+    static final String HOST = "127.0.0.1";
+    static final String BD_NAME = "dbcountry";
+    static final String USER = "usrcountry";
+    static final String PASSWORD = "pswcountry";
+    static final String PARAMS = "useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+
+    //metodos
+    public static void LoadDriver() throws ClassNotFoundException {
+        Class.forName(DRIVER);
+    }
+
+    public static Connection getConnection() throws SQLException {
+        final String BD_URL = String.format("%s//%s/%s?%s", PROTOCOL, HOST, BD_NAME, PARAMS);
+        Connection conn = null;
+        conn = DriverManager.getConnection(BD_URL, USER, PASSWORD);
+        return conn;
+    }
+
+    public static void loadDriver() {
+
+    }
+
+}
