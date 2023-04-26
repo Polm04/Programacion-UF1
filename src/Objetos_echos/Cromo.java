@@ -15,9 +15,9 @@ public class Cromo implements Comparable<Cromo>{
     private String Descripcion;
 
     //constructor
-    public Cromo(int Numero, String Descripcion) {
+    public Cromo(int Numero, String Descripcion) throws DescripcioIncorrecta {
         this.Numero = Numero;
-        this.Descripcion = Descripcion;
+        this.SetDescripcio(Descripcion);
     }
 
     //getter i setter
