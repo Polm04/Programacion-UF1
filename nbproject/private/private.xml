@@ -3,45 +3,6 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Pokemon.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Uf5/Ejercicio4.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Cofre_argent.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Uf5/Array_list.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/uf2/MostrarNuemeroInverversoConRecursividad.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/UF1/Ejercicio14.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_echos/Interface_circulo.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Enum/Demarcacion.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_echos/DescripcioIncorrecta.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/utilitats/Utilitats.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Masajista.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Enum/Equipo.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Article_alimentari.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Uf4/Main_Enum.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Enum/Cartas_clash.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Uf5/HashMap_Prueba.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Article_vestir.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Uf5/LanzarExcepciones.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Interface/figura.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Cofre_or_corones.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Pokemon_agua.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Alumno.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_echos/CromoDao.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Pokemon_electric.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_echos/Cromo.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_echos/Interface_cuadrado.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Menu/menu.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/CofreGeneric.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Menu/OptionItem.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Uf4/pokemon_main_conArrayList.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Pokemon_veri.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_echos/Interface_rectangulo.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Cofre_or.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Objetos_Herencia/Equipo_de_Futbol.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Uf5/Ejercicio2.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/Uf5/CollectionSet.java</file>
-            <file>file:/C:/Users/polmr/Programacion/src/uf2/Fractales.java</file>
-=======
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf5/TeoriaExceptions.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/UF1/ArrayEj1.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf5/AlbumCromos.java</file>
@@ -50,11 +11,14 @@
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf3/FicheroEscrituraCaracteres.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Pokemon_veri.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf5/Array_list.java</file>
+            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf5/HelloWorldGui.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Presidente.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf3/MainCopiaByte.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Menu/OptionItem.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Focas.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf3/FicheroLecturaPrimitivo.java</file>
+            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf5/BotonAumentar.java</file>
+            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf5/VentanaPrincipal.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf4/Main_Enum.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/empleado.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Interface_cuadrado.java</file>
@@ -81,12 +45,17 @@
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf6/categprodui/Categories.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf4/Herencia_MainArticle.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf3/FicheroEscrituraObjetos.java</file>
+            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf5/eventoSaludo.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf6/ShowCountries/ShowCountries.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf6/categprodui/Products.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf3/FicheroLecturaByte.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf3/FicheroPrimitivos.java</file>
+            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf5/MiVentana.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/UF1_bidimensional/Array.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf6/ShowCountries/Country.java</file>
+            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf5/BotonVentana.java</file>
+            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf5/EventoBotonPulsado.java</file>
+            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf5/BotonSaludar.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Menu/menu.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Equipo_de_Futbol.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf3/Alumnes.java</file>
@@ -94,11 +63,15 @@
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf5/LanzarExcepciones.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf3/FicheroLecturaObjetos.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf6/categprodui/CategProdUI2.java</file>
+            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf5/BotonAumentar_main.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf6/categprodui/DBconnect.java</file>
+            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf5/MiVentana_Listener.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf3/PruebaFicheros.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Enum/Cartas_clash.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Articulo.java</file>
+            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf6/categprodui/CategoryDAO.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf3/FicheroEscrituraPrimitivo.java</file>
+            <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf5/BotonClick.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_echos/Deflines.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf6/categprodui/ProductDAO.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf6/categprodui/StoreModel.java</file>
@@ -112,7 +85,6 @@
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf3/AlumnesMain.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Uf3/FihceroEscribirByte.java</file>
             <file>file:/C:/Users/pomo6989/Documents/NetBeansProjects/NF1/Programacion/src/Objetos_Herencia/Pokemon_agua.java</file>
->>>>>>> 1a0cea740c192644dcc5357265eb088be60836e8
         </group>
     </open-files>
 </project-private>

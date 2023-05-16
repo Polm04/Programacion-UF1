@@ -6,6 +6,8 @@ package Uf6.categprodui;
  */
 import Uf6.categprodui.Menu;
 import java.util.Scanner;
+import java.sql.*;
+import java.util.List;
 
 /**
  *
@@ -153,26 +155,110 @@ BORRAR */
     }
 
     private void doListAllCategories() {
-        
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     private void doListCategoryByCode() {
-        
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     private void doAddCategory() {
-        
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
+    /**
+     * get all products and display them
+     */
     private void doListAllProducts() {
+        try {
+            List<Products> items = model.findAllProducts();
+            for (Products show_product : items) {
+                System.out.println(show_product);
+            }   
+        } catch (SQLException ex) {
+            System.out.println("doListAllProducts - Error SQL" + ex.getMessage());
+        }
+        
         
     }
 
     private void doAddProduct() {
+        Products prod = doInputProduct();
+        if (prod!=null)
+        {
+            int result;
+            try {
+                result = model.addProduct(prod);
+                if (result==1)
+                {
+                    System.out.println("product added...");
+                }
+                else
+                {
+                    System.out.println("Product not added");
+                } 
+            } catch (SQLException ex) {
+                System.out.println("Error sql" + ex.getMessage());
+            }
+        }
         
+       
     }
 
     private void doListProductsByCategory() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+
+    
+     /**
+     * reads from user data for a category
+     * @return category object or null in case of error
+     */
+    public Products doInputProduct() {
+        Products p;
+        try {
+            //get a number formatter for our locale
+//            String sid = doInput("id: ");
+//            long id = Long.parseLong(sid);
+            int id = 0;  //id is autoincrement
+            String code = doInput("code: ");
+            String name = doInput("name: ");
+            String sstock = doInput("stock: " );
+            int stock = Integer.parseInt(sstock);
+            String sprice = doInput("price: " );
+            double price = Double.parseDouble(sprice);
+            String scatId = doInput("category id: " );
+            int catId = Integer.parseInt(scatId);
+            Categories add = new Categories(catId);
+            p = new Products(id, code, name, stock, price, add);            
+        } catch (NumberFormatException ex) {
+            p = null;
+        }
+        return p;
+    }    
+
+    private void doModifyCategory() {
+        String code = doInput("Put the code of category to change: ");
+        String name = doInput("Put the new name of the category: ");
+        int rows_affected;
+        rows_affected = model.updateCategoryByName(code, name);
+        if (rows_affected>0)
+        {
+            System.out.println("categorys changed ... " + rows_affected);
+        }
+        else if (rows_affected==0)
+        {
+            System.out.println("Category doesn't change code input: " +  code);
+        }
+        else if (rows_affected==-2)
+        {
+            System.out.println("name input doesn't valid name-->" + name);
+        }
+        else if (rows_affected==-3)
+        {
+            //sout
+        }
         
     }
 }

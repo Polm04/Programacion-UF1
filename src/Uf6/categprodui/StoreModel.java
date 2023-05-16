@@ -59,4 +59,18 @@ public class StoreModel {
         }
         return p;
     }
+
+    public int updateCategoryByName(String code, String newName) {
+        Categories cat;
+        int rc = 0;
+        if (code != null) {
+            if (newName != null && newName.isEmpty()) {
+                cat = CategoryDAO.selectWhereCode(code);
+
+            }
+        } else {
+
+        }
+        return rc;
+    }
 }

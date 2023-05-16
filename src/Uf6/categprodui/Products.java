@@ -36,6 +36,10 @@ public class Products {
         this.price = other.price;
         this.category_id = other.category_id;
     }
+
+    Products(int id, String code, String name, int stock, double price, Categories add) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
     //Getter i Setter
     public int getId() {

@@ -21,6 +21,10 @@ public class Categories {
         this.code = code;
         this.name = name;
     }
+
+    Categories(int catId) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
     //Getter i Setter
     public int getId() {
