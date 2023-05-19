@@ -136,7 +136,7 @@ public class AlbumCromos {
             System.out.println("Pon descripcion ");
             String descripcion = sc.nextLine();
 
-            card = new Cromo(num, descripcion);
+            //card = new Cromo(num, descripcion);
             description_ok = true;
 
             System.out.println("Descripcion incorrecta");
